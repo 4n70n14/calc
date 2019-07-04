@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+
+html,
+body {
+    background: #eeeeee;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.calc {
+    padding: 10px;
+    border: solid 1px #999999;
+    position: relative;
+    height: auto;
+    width: 340px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow:  0 0 3px #000;
+    border-radius:3px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+.calc > label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.calc > input,
+.calc > section {
+    padding:  0 5px;
+    width: 100%;
+    line-height: 1.5rem;
+}
+
+.calc > section{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+button{
+    color: #eeee;
+    margin: 10px;
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+    border: solid 1px darkgreen;
+    background:  seagreen;
+}
+.calc > button:active{
+    background: darkgreen;
+}
